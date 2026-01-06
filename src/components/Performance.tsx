@@ -7,7 +7,7 @@ export function Performance() {
   const { t } = useTranslation();
 
   const stats = [
-    { number: "320mg", label: "Premium Caffeine" },
+    { number: "160mg", label: "Premium Caffeine" },
     { number: "500ml", label: "Optimal Volume" },
     { number: "0g", label: "0 Fat" },
     { number: "100%", label: "Maximum Power" },

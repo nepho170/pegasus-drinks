@@ -59,18 +59,18 @@ export function Hero() {
               ></motion.div>
 
               <h1 className="text-6xl md:text-8xl font-black italic">
-                {t('hero.title.cant')}
+                {t("hero.title.cant")}
                 <br />
                 <span className="bg-gradient-to-r from-red-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
-                  {t('hero.title.ignore')}
+                  {t("hero.title.ignore")}
                 </span>
                 <br />
-                {t('hero.title.it')}
+                {t("hero.title.it")}
               </h1>
             </div>
 
             <p className="text-xl text-zinc-400 max-w-lg">
-              {t('hero.description')}
+              {t("hero.description")}
             </p>
 
             <motion.button
@@ -78,23 +78,27 @@ export function Hero() {
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-red-600 via-purple-600 to-red-600 hover:from-red-700 hover:via-purple-700 hover:to-red-700 text-white px-12 py-4 text-xl font-black italic relative overflow-hidden group"
             >
-              <span className="relative z-10">{t('hero.fuelUp')}</span>
+              <span className="relative z-10">{t("hero.fuelUp")}</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500"></div>
             </motion.button>
 
             <div className="flex gap-8 pt-4">
               <div>
                 <div className="text-4xl font-black bg-gradient-to-r from-red-500 to-purple-500 bg-clip-text text-transparent">
-                  320mg
+                  160mg
                 </div>
-                <div className="text-sm text-zinc-500 uppercase">{t('hero.caffeine')}</div>
+                <div className="text-sm text-zinc-500 uppercase">
+                  {t("hero.caffeine")}
+                </div>
               </div>
               <div className="border-l border-zinc-700"></div>
               <div>
                 <div className="text-4xl font-black bg-gradient-to-r from-purple-500 to-red-500 bg-clip-text text-transparent">
                   500ml
                 </div>
-                <div className="text-sm text-zinc-500 uppercase">{t('hero.volume')}</div>
+                <div className="text-sm text-zinc-500 uppercase">
+                  {t("hero.volume")}
+                </div>
               </div>
             </div>
           </motion.div>

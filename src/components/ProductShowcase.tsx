@@ -10,12 +10,12 @@ export function ProductShowcase() {
   const ingredients = [
     {
       name: t("product.ingredients.caffeine.name"),
-      amount: "320mg",
+      amount: "160mg",
       benefit: t("product.ingredients.caffeine.benefit"),
     },
     {
       name: t("product.ingredients.taurine.name"),
-      amount: "1000mg",
+      amount: "2000mg",
       benefit: t("product.ingredients.taurine.benefit"),
     },
     {
@@ -24,9 +24,9 @@ export function ProductShowcase() {
       benefit: t("product.ingredients.bVitamins.benefit"),
     },
     {
-      name: t("product.ingredients.lCarnitine.name"),
+      name: t("product.ingredients.electrolytes.name"),
       amount: "500mg",
-      benefit: t("product.ingredients.lCarnitine.benefit"),
+      benefit: t("product.ingredients.electrolytes.benefit"),
     },
   ];
 
@@ -98,49 +98,6 @@ export function ProductShowcase() {
                   </div>
                 </motion.div>
               ))}
-            </div>
-
-            <div className="flex items-center gap-6 pt-4">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full border-2 border-green-500 flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-green-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={3}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <span className="text-sm uppercase">
-                  {t("product.labTested")}
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full border-2 border-green-500 flex items-center justify-center">
-                  <svg
-                    className="w-6 h-6 text-green-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={3}
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <span className="text-sm uppercase">
-                  {t("product.zeroFat")}
-                </span>
-              </div>
             </div>
           </motion.div>
 

@@ -17,7 +17,7 @@
     "volume": "Volume"
   },
   "features": {
-    "title": "BUILT FOR ATHLETES",
+    "title": "BUILT FOR PERFORMANCE",
     "subtitle": "Engineered for maximum performance",
     "instantEnergy": {
       "title": "INSTANT ENERGY",
@@ -55,12 +55,12 @@
       },
       "bVitamins": {
         "name": "B-Vitamins",
-        "amount": "Complete",
+        "amount": "Full B-Complex",
         "benefit": "Metabolism Support"
       },
-      "lCarnitine": {
-        "name": "L-Carnitine",
-        "benefit": "Fat Metabolism"
+      "electrolytes": {
+        "name": "Electrolytes",
+        "benefit": "Hydration & Recovery"
       }
     },
     "labTested": "Lab Tested",
@@ -89,7 +89,7 @@
       "designedFor": "DESIGNED FOR THOSE WHO",
       "refuseToSettle": "REFUSE TO SETTLE"
     },
-    "quoteDescription": "Pegasus Energy is more than just a drink—it's a statement. Built for athletes who demand excellence in every aspect of their performance."
+    "quoteDescription": "Pegasus Energy is more than just a drink—it's a statement. Built for people who demand excellence in every aspect of their performance."
   },
   "cta": {
     "title": {
@@ -97,7 +97,7 @@
       "unleash": "UNLEASH",
       "yourPower": "YOUR POWER?"
     },
-    "description": "Join thousands of athletes who refuse to be average. Experience the Pegasus difference today.",
+    "description": "Join thousands of people who refuse to be average. Experience the Pegasus difference today.",
     "orderNow": "ORDER NOW",
     "findStores": "FIND STORES"
   },

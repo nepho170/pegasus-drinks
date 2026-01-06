@@ -42,9 +42,9 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-black italic mb-4">
-            {t("features.title").split(" ")[0]}{" "}
+            {t("features.title").split(" ").slice(0, 2).join(" ")}{" "}
             <span className="bg-gradient-to-r from-red-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
-              {t("features.title").split(" ")[1]}
+              {t("features.title").split(" ")[2]}
             </span>
           </h2>
           <p className="text-xl text-zinc-400">{t("features.subtitle")}</p>
